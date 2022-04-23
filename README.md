@@ -1,11 +1,11 @@
-play2vim
-========
+# play2vim
+
 A vim plugin for Play framework 2.0.
 
-Install
----
+## Install
 
 **Using [pathogen](https://github.com/tpope/vim-pathogen)**:
+
 ```
 cd .vim/bundle
 git clone https://github.com/gre/play2vim.git
@@ -14,26 +14,26 @@ git clone https://github.com/gre/play2vim.git
 **Using [Vundle](https://github.com/VundleVim/Vundle.vim)**:
 
 Add the following line to your `.vimrc`:
+
 ```
 Plugin 'gre/play2vim'
 ```
+
 After that, run `:PluginInstall` in vim
 
 Or
 
 From your terminal, run `vim +PluginInstall +qall`
 
+## Recommended plugins
 
-Recommended plugins
--------------------
-* [vim-scala](http://github.com/derekwyatt/vim-scala) (http://github.com/derekwyatt/vim-scala)
-* [html5.vim](http://github.com/othree/html5.vim) (http://github.com/othree/html5.vim)
+- [vim-scala](http://github.com/derekwyatt/vim-scala) (http://github.com/derekwyatt/vim-scala)
+- [html5.vim](http://github.com/othree/html5.vim) (http://github.com/othree/html5.vim)
 
-What's in the box?
-------------------
-* `conf/routes` syntax color
-* `conf/application.conf` syntax color
-* `*.scala.html` syntax color
+## What's in the box?
+
+- `conf/routes` syntax color
+- `conf/application.conf` syntax color
 
 ![screenshot](http://i.imgur.com/EjuRK.png)
 
@@ -41,9 +41,8 @@ More will come soon.
 
 I would be happy to accept any contributions to this project.
 
+# Licence
 
-Licence
-=======
 This software is licensed under the Apache 2 license, quoted below.
 
 Copyright 2011 Gaëtan Renaudeau <gre@zenexity.com>
